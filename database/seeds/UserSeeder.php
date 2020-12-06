@@ -9,13 +9,13 @@ class UserSeeder extends Seeder
     {
         App\User::create([
             'usertype' => 'admin',
-            'name' => 'moshiur rahman',
-            'email' => 'moshiurcse888@gmail.com',
+            'name' => 'Admin',
+            'email' => 'admin@gmail.com',
             'mobile' => '01749302454',
             'address' => 'dhaka bangladesh',
             'gender' => 'male',
             'image' => 'logo.jpg',
-            'password' => bcrypt('12345678')
+            'password' => bcrypt('admin@gmail.com')
         ]);
     }
 }
